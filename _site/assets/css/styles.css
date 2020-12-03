@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap");
-* { font-family: Asap, sans-serif; }
+* { font-family: sans-serif; }
 
 .current { color: green; }
 
@@ -7,11 +6,11 @@ body { background-color: black; }
 
 header { background: yellow; padding: 20px; }
 
-header > h1 { color: #25272E; text-align: center; font-family: Asap, sans-serif; }
+header > h1 { color: #25272E; text-align: center; font-family: sans-serif; }
 
-.score-board { margin: 20px auto; border: 3px solid white; border-radius: 4px; text-align: center; padding: 15px 2px; width: 200px; color: white; font-size: 40px; font-family: Asap, sans-serif; position: relative; transition: all 0.3s ease; }
+.score-board { margin: 20px auto; border: 3px solid white; border-radius: 4px; text-align: center; padding: 15px 2px; width: 200px; color: white; font-size: 40px; font-family: sans-serif; position: relative; transition: all 0.3s ease; }
 
-.badge { background: orange; font-size: 18px; padding: 2px 14px; font-weight: bold; font-family: Asap, sans-serif; }
+.badge { background: orange; font-size: 18px; padding: 2px 14px; font-weight: bold; font-family: sans-serif; }
 
 #user-label { position: absolute; top: 30px; left: -25px; }
 
