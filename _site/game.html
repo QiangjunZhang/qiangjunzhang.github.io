@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Game</title>
+  </head>
+  <body>
+    
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav">
+    
+    <li class="nav-item">
+      <a class="nav-link" href="/"> Home </a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="/about.html"> About </a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="/blog.html"> Blog </a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="/game.html"> Game </a>
+    </li>
+    
+  </ul>
+</nav>
+
+    <div class="container p-3 my-3">
+      <div class="container p-3 my-3 bg-dark text-white">
+  <h1 style="text-align: center">Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">AI</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+      <p>Paper Covers rock. You win!</p>
+    </div>
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="assets/images/rock.png" alt="" style="width:128px;height:128px;">
+      </div>
+      <div class="choice" id="p">
+        <img src="assets/images/hand.png" alt="" style="width:128px;height:128px;">
+      </div>
+      <div class="choice" id="s">
+        <img src="assets/images/scissor.png" alt="" style="width:128px;height:128px;">
+      </div>
+    </div>
+    <p id="action-message" style="text-align: center">Make your move</p>
+    <script src="app.js" charset="utf-8"></script>
+</div>
+
+    </div>
+  </body>
+</html>
