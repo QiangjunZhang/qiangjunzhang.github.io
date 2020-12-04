@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  QiangjunZhang
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 header_pages:
   - about.markdown
   - Discover.html
