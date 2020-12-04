@@ -20,8 +20,11 @@
 
 title: Qiangjun Zhang
 email: zhangqj616@gmail.com
+author:
+  name: Qiangjun Zhang
+  email: zhangqj616@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Glad to have you here.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  QiangjunZhang
@@ -40,6 +43,7 @@ minima:
   # generate social links in footer
   social_links:
     github:  QiangjunZhang
+    twitter: qiangjun_zhang
 
 # Exclude from processing.
 # The following items will not be processed, by default.
