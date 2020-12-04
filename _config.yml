@@ -30,7 +30,7 @@ github_username:  QiangjunZhang
 theme: minima
 header_pages:
   - about.markdown
-  - Discover.markdown
+  - Discover.html
 plugins:
   - jekyll-feed
 
