@@ -33,6 +33,12 @@ header_pages:
   - Discover.html
 plugins:
   - jekyll-feed
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github:  QiangjunZhang
 
 # Exclude from processing.
 # The following items will not be processed, by default.
