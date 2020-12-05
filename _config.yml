@@ -32,7 +32,7 @@ github_username:  QiangjunZhang
 # Build settings
 theme: minima
 header_pages:
-  - about.markdown
+  - about.html
   - Discover.html
   - gallery.html
 plugins:
@@ -44,6 +44,7 @@ minima:
   social_links:
     github:  QiangjunZhang
     twitter: qiangjun_zhang
+    linkedin: qiangjun-zhang
 
 # Exclude from processing.
 # The following items will not be processed, by default.
