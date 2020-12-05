@@ -1,0 +1,40 @@
+.button {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+.button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+
+.cell {
+  width: 25%;
+  padding-top: 25%;
+  border: 2px solid white;
+  margin: 10px;
+  border-radius: 15%
+
+}
+.mole-domain {
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 90%
+}
+.mole {
+  background-color: white;
+  background-image: url(/assets/images/mole.png);
+  background-size: cover;
+}

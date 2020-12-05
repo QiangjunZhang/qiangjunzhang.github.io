@@ -321,7 +321,7 @@ table td { border: 1px solid #e8e8e8; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
-.game-domain { background-color: black; }
+.game-domain { background-color: black; justify-content: center; align-content: center; }
 
 .score-board { margin: 20px auto; border: 3px solid white; border-radius: 4px; text-align: center; padding: 15px 2px; width: 200px; color: white; font-size: 40px; font-family: sans-serif; position: relative; transition: all 0.3s ease; }
 
@@ -331,7 +331,7 @@ table td { border: 1px solid #e8e8e8; }
 
 #computer-label { position: absolute; top: 30px; right: -25px; }
 
-.result { font-size: 40px; color: white; }
+.result { font-size: 30px; color: white; }
 
 .result > p { text-align: center; font-weight: bold; }
 
@@ -353,7 +353,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .cv-head { text-align: center; justify-content: center; }
 
-.cv-title { font-size: 24px; }
+.cv-title { font-size: 20.8px; }
 
 .cv-description { width: 70%; }
 
@@ -362,5 +362,17 @@ table td { border: 1px solid #e8e8e8; }
 .cv-profile { width: 20%; margin-right: 15px; text-align: center; }
 
 .img-circular { width: 20%; border-radius: 50%; }
+
+.button { color: white; background-color: black; font-size: 20px; }
+
+.button:hover { cursor: pointer; background: white; color: black; }
+
+.cell { width: 25%; padding-top: 25%; border: 2px solid white; margin: 10px; border-radius: 15%; }
+
+.mole-domain { background-color: black; display: flex; flex-flow: row wrap; justify-content: center; align-content: center; }
+
+.grid { display: flex; flex-flow: row wrap; justify-content: center; align-content: center; width: 90%; }
+
+.mole { background-color: white; background-image: url(/assets/images/mole.png); background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

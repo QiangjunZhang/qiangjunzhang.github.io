@@ -3,18 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Rock Paper Scissor | Qiangjun Zhang</title>
+<title>whack-a-mole | Qiangjun Zhang</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Rock Paper Scissor" />
+<meta property="og:title" content="whack-a-mole" />
 <meta name="author" content="Qiangjun Zhang" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/game/rock_paper_scissor.html" />
-<meta property="og:url" content="http://localhost:4000/game/rock_paper_scissor.html" />
+<link rel="canonical" href="http://localhost:4000/game/whack-a-mole.html" />
+<meta property="og:url" content="http://localhost:4000/game/whack-a-mole.html" />
 <meta property="og:site_name" content="Qiangjun Zhang" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Rock Paper Scissor" />
+<meta property="twitter:title" content="whack-a-mole" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/game/rock_paper_scissor.html","author":{"@type":"Person","name":"Qiangjun Zhang"},"headline":"Rock Paper Scissor","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/game/whack-a-mole.html","author":{"@type":"Person","name":"Qiangjun Zhang"},"headline":"whack-a-mole","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Qiangjun Zhang" />
 </head>
@@ -35,29 +35,33 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="game-domain">
-  <h1 class="result" style="text-align: center">Rock Paper Scissors</h1>
-    <div class="score-board">
-      <div id="user-label" class="badge">user</div>
-      <div id="computer-label" class="badge">AI</div>
-      <span id="user-score">0</span>:<span id="computer-score">0</span>
+        <div class="mole-domain">
+  <div class="result">
+    <p>
+      <span>Score:  </span>
+      <span id="user-score">0</span>
+    </p>
+    <p>
+      <span>Time left: </span>
+      <span id="time-left">60</span>
+    </p>
+    <p>
+      <button class="button" onclick="startGame()">Start the Game</button>
+    </p>
+  </div>
+    <div class="grid">
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+      <div class="cell" id="9"></div>
     </div>
-    <div class="result">
-      <p>Paper Covers rock!</p>
-    </div>
-    <div class="choices">
-      <div class="choice" id="r">
-        <img src="../assets/images/rock.png" alt="">
-      </div>
-      <div class="choice" id="p">
-        <img src="../assets/images/hand.png" alt="">
-      </div>
-      <div class="choice" id="s">
-        <img src="../assets/images/scissor.png" alt="">
-      </div>
-    </div>
-    <p id="action-message" class="result" style="text-align: center">Make your move</p>
-    <script src="../assets/js/rock.js" charset="utf-8"></script>
+    <p id="action-message" class="result" style="text-align: center">Whach a mole!</p>
+    <script src="../assets/js/whac_a_mole.js" charset="utf-8"></script>
 </div>
 
       </div>

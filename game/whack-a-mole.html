@@ -1,0 +1,32 @@
+---
+layout: default
+title: whack-a-mole
+---
+<div class="mole-domain">
+  <div class="result">
+    <p>
+      <span>Score:  </span>
+      <span id="user-score">0</span>
+    </p>
+    <p>
+      <span>Time left: </span>
+      <span id="time-left">60</span>
+    </p>
+    <p>
+      <button class="button" onclick="startGame()">Start the Game</button>
+    </p>
+  </div>
+    <div class="grid">
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+      <div class="cell" id="9"></div>
+    </div>
+    <p id="action-message" class="result" style="text-align: center">Whach a mole!</p>
+    <script src="../assets/js/whac_a_mole.js" charset="utf-8"></script>
+</div>
