@@ -33,8 +33,15 @@
   align-content: center;
   width: 90%
 }
+
 .mole {
   background-color: white;
-  background-image: url(/assets/images/mole.png);
+  background-image: url(/assets/images/mole1.jpg);
+  background-size: cover;
+}
+
+.monster {
+  background-color: white;
+  background-image: url(/assets/images/monster.png);
   background-size: cover;
 }
