@@ -29,6 +29,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  QiangjunZhang
 
+show_excerpts: True # set to true to show excerpts on the homepage
+
 # Build settings
 theme: minima
 header_pages:

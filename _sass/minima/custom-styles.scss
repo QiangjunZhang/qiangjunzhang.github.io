@@ -14,6 +14,25 @@
   margin-bottom: 30px;
 }
 
+.post-card {
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.post-description{
+  width: 70%;
+}
+
+.post-banner{
+  width: 25%;
+  margin: 2%;
+}
+
 .game-card img {
   height: 8rem;
   margin-bottom: 10px;
