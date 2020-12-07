@@ -20,7 +20,7 @@
 
 .card-list img {
   overflow: hidden;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   transition: opacity 0.2s ease, box-shadow 0.2s ease, transform 0.6s;
   opacity: 1;
   margin-bottom: 30px;
@@ -71,18 +71,11 @@
   background-color: white;
 }
 
-.game-card img:hover, .card-list img:hover {
+.game-card img:hover {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   transform: scale(1.1);
 }
 
-.card-list {
-  margin: 0 10%;
-}
-
-.card-list h1 {
-  text-align: center;
-}
 
 .game-list {
   display: flex;
