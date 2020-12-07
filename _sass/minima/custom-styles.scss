@@ -1,17 +1,24 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-.card-list {
-  margin: 0 10%;
-}
-
 .grey-meta {
   color: $brand-color;
 }
 
+.bold-meta {
+  font-weight: bold;
+}
 
-.game-card img, .card-list img{
+.game-card img {
   border-radius: 20px;
+  overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s ease, box-shadow 0.2s ease, transform 0.6s;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.card-list img {
   overflow: hidden;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   transition: opacity 0.2s ease, box-shadow 0.2s ease, transform 0.6s;
@@ -30,7 +37,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   width: 50%;
-  height: 120px;
+  height: 100px;
   display: flex;
 }
 
@@ -46,15 +53,17 @@
 
 .post-description{
   padding: 1rem;
-  width: 70%;
+  width: 73%;
+  overflow: hidden;
 }
 
 .post-banner{
   background-position: 50% 50%;
   background-size: cover;
   border: 0.5px solid rgba(0,0,0,.15);
-  width: 30%;
+  width: 27%;
 }
+
 
 .game-card img {
   height: 8rem;
@@ -65,6 +74,10 @@
 .game-card img:hover, .card-list img:hover {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   transform: scale(1.1);
+}
+
+.card-list {
+  margin: 0 10%;
 }
 
 .card-list h1 {

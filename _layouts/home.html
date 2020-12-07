@@ -16,7 +16,7 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-  <h2 class="grey-meta">Latest Posts</h2>
+  <h4 class="grey-meta">Latest Posts</h4>
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -25,13 +25,10 @@ layout: default
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
         <div class="post-card">
-          <div class="post-banner"
-            style="background-image: url('{{post.image_url | relative_url}}')">
-          </div>
           <div class="post-description">
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
+              <a class="bold-meta" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
               </a>
             </h3>
@@ -39,7 +36,9 @@ layout: default
               {{ post.excerpt }}
             {%- endif -%}
           </div>
-
+          <div class="post-banner"
+            style="background-image: url('{{post.image_url | relative_url}}')">
+          </div>
         </div>
       {%- endfor -%}
     </ul>
