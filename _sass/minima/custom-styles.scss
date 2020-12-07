@@ -28,6 +28,7 @@
 
 .custom-post-list{
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -36,7 +37,7 @@
   background-color: white;
   margin-right: 20px;
   margin-bottom: 20px;
-  width: 50%;
+  width: 47%;
   height: 100px;
   display: flex;
 }
@@ -60,7 +61,6 @@
 .post-banner{
   background-position: 50% 50%;
   background-size: cover;
-  border: 0.5px solid rgba(0,0,0,.15);
   width: 27%;
 }
 

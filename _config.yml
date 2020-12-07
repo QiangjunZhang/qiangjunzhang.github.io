@@ -30,6 +30,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  QiangjunZhang
 
 show_excerpts: False # set to true to show excerpts on the homepage
+paginate: 10 #set pagination to true
+paginate_path: "/page:num/"
 
 # Build settings
 theme: minima
@@ -39,6 +41,7 @@ header_pages:
   - gallery.html
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 minima:
   date_format: "%b %-d, %Y"
 
