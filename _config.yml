@@ -22,7 +22,6 @@ title: Qiangjun Zhang
 email: zhangqj616@gmail.com
 author:
   name: Qiangjun Zhang
-  email: zhangqj616@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
