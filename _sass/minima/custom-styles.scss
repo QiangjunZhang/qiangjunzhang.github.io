@@ -2,7 +2,7 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .grey-meta {
-  color: $brand-color;
+  color: $brand-color-dark;
 }
 
 .bold-meta {
@@ -25,7 +25,7 @@
 }
 
 .post-description{
-  padding: 1rem;
+  padding: 0.2rem 0.6rem;
   width: 73%;
   overflow: hidden;
 }
