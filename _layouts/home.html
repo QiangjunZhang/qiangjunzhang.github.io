@@ -16,7 +16,7 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-  <h4 class="grey-meta">Latest Posts</h4>
+  <p class="title-meta">Latest Posts</p>
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -26,9 +26,9 @@ layout: default
       {%- for post in posts -%}
         <div class="post-card">
           <div class="post-description">
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <span class="small-meta">{{ post.date | date: date_format }}</span>
             <p>
-              <a class="bold-meta" href="{{ post.url | relative_url }}">
+              <a class="title-meta" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
               </a>
             </p>

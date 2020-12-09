@@ -7,6 +7,7 @@ $brand-color-dark:      darken($brand-color, 25%) !default;
 $site-title-color:      $brand-color-dark !default;
 
 $text-color:            #111111 !default;
+$caption-color:         lighten($text-color, 30%) !default;
 $background-color:      #F9f9f9 !default;
 $code-background-color: #eeeeff !default;
 
