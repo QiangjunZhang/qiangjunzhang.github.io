@@ -331,6 +331,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-banner { background-position: 50% 50%; background-size: cover; width: 27%; }
 
+.post { width: 80%; margin: 0 auto; }
+
+@media screen and (max-width: 800px) { .post { width: 100%; margin: 0 0; } }
+
 .game-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); grid-gap: 15px; }
 
 .game-card { width: 100%; text-align: center; }
