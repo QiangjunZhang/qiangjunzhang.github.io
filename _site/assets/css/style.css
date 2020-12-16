@@ -363,6 +363,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .hover-image:hover .middle { opacity: 1; }
 
+.gen-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); grid-gap: 15px; }
+
+.gen-card { background-color: #7FFFD4; color: white; }
+
 .game-domain { background-color: black; justify-content: center; align-content: center; }
 
 .score-board { margin: 20px auto; border: 3px solid white; border-radius: 4px; text-align: center; padding: 15px 2px; width: 200px; color: white; font-size: 40px; font-family: sans-serif; position: relative; transition: all 0.3s ease; }
@@ -418,5 +422,7 @@ table td { border: 1px solid #e8e8e8; }
 .mole { background-color: white; background-image: url(/assets/images/mole1.jpg); background-size: cover; }
 
 .monster { background-color: white; background-image: url(/assets/images/monster.png); background-size: cover; }
+
+.flappy_bird canvas { border: 1px solid #d3d3d3; display: block; margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

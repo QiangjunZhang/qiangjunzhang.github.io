@@ -159,3 +159,16 @@
 .hover-image:hover .middle {
   opacity: 1;
 }
+
+
+// general-grid
+.gen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  grid-gap: 15px;
+}
+
+.gen-card {
+  background-color: #7FFFD4;
+  color: white;
+}
