@@ -35,7 +35,6 @@ paginate_path: "/page:num/"
 # Build settings
 theme: minima
 header_pages:
-  - about.html
   - Discover.html
   - gallery.html
 plugins:
